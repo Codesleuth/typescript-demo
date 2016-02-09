@@ -12,4 +12,4 @@ class Thing {
   }
 }
 
-console.log(new Thing().That)
+console.log(new Thing()._that)
