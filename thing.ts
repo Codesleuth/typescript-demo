@@ -1,6 +1,6 @@
 "use strict"
 
-class Thing {
+export class Thing {
   private _that: string;
   
   constructor() {

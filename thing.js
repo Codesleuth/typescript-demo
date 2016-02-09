@@ -1,5 +1,5 @@
 "use strict";
-class Thing {
+export class Thing {
     constructor() {
         this._that = 'thing';
     }
