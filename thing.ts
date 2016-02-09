@@ -10,4 +10,12 @@ export class Thing {
   get That() {
     return this._that
   }
+  
+  private async ThingFirst(): Promise<number> {
+    return Promise.resolve<number>(1);
+  }
+  
+  async Thinger(): Promise<number> {
+    return await this.ThingFirst();
+  }
 }

@@ -2,4 +2,8 @@
 
 import {Thing} from './thing'
 
-console.log(new Thing().That + 1)
+let promise = new Thing().Thinger()
+
+console.log(promise)
+
+promise.then(console.log)
