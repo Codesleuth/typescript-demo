@@ -1,7 +1,7 @@
 "use strict"
 
 class Thing {
-  _that: string;
+  private _that: string;
   
   constructor() {
     this._that = 'thing'
