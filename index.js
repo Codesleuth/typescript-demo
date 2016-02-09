@@ -1,3 +1,3 @@
 "use strict";
-import { Thing } from './thing';
-console.log(new Thing().That);
+var thing_1 = require('./thing');
+console.log(new thing_1.Thing().That);

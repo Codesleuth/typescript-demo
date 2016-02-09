@@ -2,4 +2,4 @@
 
 import {Thing} from './thing'
 
-console.log(new Thing().That)
+console.log(new Thing().That + 1)

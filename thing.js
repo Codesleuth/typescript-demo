@@ -1,5 +1,5 @@
 "use strict";
-export class Thing {
+class Thing {
     constructor() {
         this._that = 'thing';
     }
@@ -7,3 +7,4 @@ export class Thing {
         return this._that;
     }
 }
+exports.Thing = Thing;
