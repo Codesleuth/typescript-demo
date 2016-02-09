@@ -1,1 +1,1 @@
-console.log('hello world'.indexOf(1))
+console.log('hello 1 world'.indexOf(1))
