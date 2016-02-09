@@ -1,6 +1,8 @@
 "use strict"
 
 class Thing {
+  _that: string;
+  
   constructor() {
     this._that = 'thing'
   }
