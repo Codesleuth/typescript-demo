@@ -1,9 +1,5 @@
 "use strict"
 
-import {Thing} from './thing'
+var thing = 'thing'
 
-let promise = new Thing().Thinger()
-
-console.log(promise)
-
-promise.then(console.log)
+console.log(`That is... ${thing} at ${new Date}`)
